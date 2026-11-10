@@ -1,5 +1,3 @@
-
-
 /* $(document).ready(function(){
 	$('.services-carousel').owlCarousel({
 		loop: true,
@@ -147,4 +145,20 @@ $(document).ready(function () {
     });
 
   });
+
+
+
+$(document).ready(function () {
+  /*SCROLL PAGE TO TOP*/
+  $(document).ready(function() {
+    // $(".toTop").css("display", "none");
+    $(window).scroll(function(){
+      if($(window).scrollTop() > 0){$(".toTop").fadeIn("slow");} else {$(".toTop").fadeOut("slow");}
+    });
+    $(".toTop").click(function(){
+      event.preventDefault();
+      $("html, body").animate({scrollTop:0},"slow");
+    });
+  });
+});
 

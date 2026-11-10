@@ -590,6 +590,7 @@ select.form-control-custom{appearance:none;cursor:pointer;}
 
 
 
+.toTop{display:none;position:fixed;right:15px;bottom:56px;z-index:10000;width:42px;height:42px;font-size:20px;line-height:42px;border:2px solid var(--orange);border-radius:8px;background-color:var(--orange);color:#FFF;display:none;}
 
 
 @media (min-width:576px){
