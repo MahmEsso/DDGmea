@@ -387,7 +387,7 @@ footer{background:#1e1e1e;background: radial-gradient(ellipse at top, #000000 0%
 .approach-item p{color: #ffffffa6 !important;font-size:.8rem;line-height:1.6;margin:0}
 
 .offices-strip{background: var(--orange);padding:0}
-.offices-inner{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.offices-inner{display:grid;grid-template-columns:repeat(5,1fr);gap:0}
 @media (max-width: 991px) {
 .offices-inner{grid-template-columns:repeat(2,1fr)}
 }
